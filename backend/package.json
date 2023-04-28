@@ -23,6 +23,7 @@
     "node-cache": "^5.1.2",
     "node-cron": "^3.0.1",
     "nodejs-base64": "^2.0.0",
+    "pdfjs": "^2.4.7",
     "request": "^2.88.2",
     "uuid": "^8.3.2"
   }

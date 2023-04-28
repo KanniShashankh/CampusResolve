@@ -4,6 +4,7 @@ var cookieParser = require('cookie-parser');
 var morgan = require('morgan');
 var logger = require('./utils/logger').getLogger();
 var dbconnect = require('./db/connect');
+const apiRouter = require('./router/api');
 // var config = require('./config');
 
 const bodyParser = require('body-parser');
@@ -26,7 +27,7 @@ app.use(express.static( path.join(__dirname, '../frontend/build') ));
 // app.use('/', indexRouter);
 // app.use('/ui', uiRouter);
 // app.use('/api/auth', auth);
-// app.use('/api', apiRouter);
+app.use('/api', apiRouter);
 
 app.get("/*", async (req, res) => {
 	res.sendFile( path.join(__dirname, "../frontend/build/index.html") );

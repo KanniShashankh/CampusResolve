@@ -1,6 +1,6 @@
 import Home from './Home'
 import './index.css'
-
+import PdfUpload from "./components/PdfUpload";
 function App() {
 
   return (
@@ -8,7 +8,9 @@ function App() {
       <h1 className="text-center text-3xl font-bold underline">
         Hello world!
       </h1>
-      <Home></Home>
+      <PdfUpload></PdfUpload>
+      {/* <Home></Home> */}
+      
     </>
   )
 }
