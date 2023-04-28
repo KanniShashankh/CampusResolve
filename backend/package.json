@@ -1,0 +1,29 @@
+{
+  "name": "campusresolve",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "dependencies": {
+    "async": "^3.2.4",
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.12",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.3",
+    "express": "~4.16.1",
+    "google-auth-library": "^8.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash.template": "^4.5.0",
+    "log4js": "^6.5.2",
+    "moment": "^2.29.3",
+    "mongoose": "^6.4.1",
+    "mongoose-paginate": "^5.0.3",
+    "morgan": "~1.9.1",
+    "node-cache": "^5.1.2",
+    "node-cron": "^3.0.1",
+    "nodejs-base64": "^2.0.0",
+    "request": "^2.88.2",
+    "uuid": "^8.3.2"
+  }
+}

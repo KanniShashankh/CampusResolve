@@ -1,3 +1,4 @@
+import Home from './Home'
 import './index.css'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
       <h1 className="text-center text-3xl font-bold underline">
         Hello world!
       </h1>
+      <Home></Home>
     </>
   )
 }
